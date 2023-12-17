@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* General Styling */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Navigation Styling */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    background-color: #0F1422;
+}
+
+.nav img {
+    object-fit: contain;
+    height: 60px;
+}
+
+.mid-nav {
+    padding: 0 0.5rem;
+}
+
+.mid-nav ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.mid-nav ul a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.logo {
+    height: 50px;
+    aspect-ratio: 1/1;
+}
+
+/* Social Media Icons Styling */
+.social {
+    font-size: 1.25rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.social > * {
+    transform: all 0.3s;
+    color: #ddd;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+/* Header of About Section */
+.header-of-about {
+    background-color: #0F1422;
+    color: #F2C335;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* About Section Styling */
+.about-main {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0F1422;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 7.5rem;
+}
+
+.about-main img {
+    width: 30%;
+    border-radius: 50px;
+}
+
+.about-des {
+    justify-content: center;
+}
+
+.about-des h2 {
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.about-des h3 {
+    color: #F2C335;
+}
+
+.about-des p {
+    color: white;
+}
+
+.about-des span {
+    display: flex;
+    color: #F2C335;
+}
