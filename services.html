@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="services.css">
+</head>
+<body>
+   <!-- Desktop Navigation -->
+   <nav id="desktop-nav">
+      <div class="logo">ZYNXOSO</div>
+      <div>
+         <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- Hamburger Menu -->
+   <nav id="hamburger-nav">
+      <div class="logo">ZYNXOSO</div>
+      <div class="hamburger-menu">
+         <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+         </div>
+      </div>
+   </nav>
+
+   <!-- Services Section -->
+   <div class="header of services" id="services">
+      <h2>Check out my</h2>
+      <h1>Services</h1>
+      <div class="cards">
+         <div class="card red">
+            <p class="tip">Website Development</p>
+            <p class="second-text">As a freelance web developer, I specialize in crafting unique and responsive websites tailored to meet diverse client needs. With expertise in front-end and back-end development, I create user-centric, visually appealing websites that prioritize functionality and aesthetics. From static sites to dynamic web applications, I ensure a seamless user experience while utilizing the latest web development technologies.</p>
+         </div>
+         <div class="card blue">
+            <p class="tip">Front-End Development</p>
+            <p class="second-text">Ensuring your online presence remains accessible and captivating across devices is my forte. I specialize in responsive design, guaranteeing that websites I create are visually engaging and fully functional on various platforms – from desktops to mobile devices. Emphasizing adaptability and user-friendliness, I deliver websites that engage users regardless of the device they use to access them.</p>
+         </div>
+         <div class="card green">
+            <p class="tip">Responsive Design</p>
+            <p class="second-text">Crafting captivating user interfaces and seamless user experiences is a cornerstone of my expertise. Proficient in HTML, CSS, and JavaScript, I bring designs to life by creating dynamic, interactive, and visually appealing front-end components. From structuring content to enhancing user interactions, my focus on front-end development ensures an engaging and intuitive user interface for every project.</p>
+         </div>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>

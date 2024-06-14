@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Web Portfolio</title>
+      <link rel="stylesheet" href="contact.css">
+      <link rel="stylesheet" href="mediaqueries.css">
+      <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+   </head>
+   <body>
+      <div class="container" id="Home">
+      <header>
+         <nav id="desktop-nav">
+            <div class="logo">Harry.</div>
+            <div>
+               <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="project.html">Projects</a></li>            
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+         <nav id="hamburger-nav">
+            <div class="logo">ZYNXOSO</div>
+            <div class="hamburger-menu">
+               <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="menu-links">
+                  <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                  <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                  <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                  <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section id="profile">
+         <div class="section__pic-container">
+            <img src="ASSETS/images/mypicture.png" alt="Jan Harry Madrona profile picture" />
+         </div>
+         <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jan Harry Madrona</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+               <button class="btn btn-color-2" onclick="window.open('ASSETS/resume.pdf')">Download CV </button>
+               <button class="btn btn-color-1" onclick="location.href='contact.html'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+               <img src="ASSETS/images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ako-po-si-natoy-0784b629b/'"/>
+               <img
+                  src="ASSETS/images/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/zynxoso'"/>
+            </div>
+         </div>
+      </section>
+      <section>
+         <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+               <div class="about-containers">
+                  <div class="details-container">
+                     <h2 class="experience-sub-title">Programming languages</h2>
+                   
+                  </div>
+               </div>
+            </div>
+         </section>
+      </section>
+
+      <section>
+         <div class="container2">
+             <div class="row justify-content-center">
+                     <div class="call-action-content text-center">
+                         <h2 class="action-title">Have any project on mind?</h2>
+                         <p>Got a project in mind? Let's make it happen! I specialize in crafting stunning websites tailored to your needs. From sleek corporate sites to engaging e-commerce platforms, I bring ideas to life. Reach out, and let's build something awesome together!</p>
+                         <ul>
+                             <li><a class="main-btn1" onclick="window.open('ASSETS/resume.pdf') ">Download cv</a></li>
+                             <li><a class="main-btn2" href="contact.html">Engage Now</a></li>
+                         </ul>
+                     </div>
+             </div>
+         </div> 
+     </section>
+
+      <footer>
+         <nav>
+            <div class="nav-links-container">
+               <ul class="nav-links">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="project.html">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+         <p>Copyright &#169; 2023 Jan Harry Madrona. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>

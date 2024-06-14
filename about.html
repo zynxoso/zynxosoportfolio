@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">ZYNXOSO</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hamburger Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo">ZYNXOSO</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                    src="ASSETS/images/mypicture.png"
+                    alt="Profile picture"
+                    class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <!-- Experience Details -->
+                    <div class="details-container">
+                        <img
+                            src="ASSETS/images/experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>7+ months <br />Frontend Development</p>
+                    </div>
+                    <!-- Education Details -->
+                    <div class="details-container">
+                        <img
+                            src="ASSETS/images/education.png"
+                            alt="Education icon"
+                            class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Bachelor in Science and information technology</p>
+                    </div>
+                </div>
+                <!-- About Me Text -->
+                <div class="text-container">
+                    <p>
+                        Hi, I am Jan Harry Madrona. I am an incoming Frontend and
+                        backend developer who knows the basics of building user 
+                        interfaces with HTML, CSS, and JavaScript. This student's 
+                        curiosity and willingness to embrace new tools make them a 
+                        promising addition to projects requiring a mix of frontend 
+                        and backend skills.
+                    </p>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
